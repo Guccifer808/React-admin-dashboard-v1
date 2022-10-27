@@ -53,7 +53,7 @@ const Team = () => {
                 ? colors.greenAccent[600]
                 : colors.greenAccent[700]
             }
-            borderRAdius="4px"
+            borderRadius="4px"
           >
             {access === "admin" && <AdminPanelSettingsOutlinedIcon />}
             {access === "manager" && <SecurityOutlinedIcon />}
